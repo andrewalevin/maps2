@@ -29,9 +29,11 @@
     <div id="map"></div>
 
     <script>
-        config.map.center = [37.61, 55.75];
-        config.map.style = 'mapbox://styles/andrewlevin/clthwxvvg002h01qo40y1e99g';
-        config.map.zoom = 11;
+        let config = {
+            mapboxToken: 'pk.eyJ1IjoiYW5kcmV3bGV2aW4iLCJhIjoiY2t5ZXM5c3cyMWJxYjJvcGJycmw0dGlyeSJ9.9QfCmimkyYicpprraBc-XQ',
+            rootURL: 'https://andrewalevin.github.io/maps/moscow/',
+            dataYamlPath: 'data.yaml'
+        }
     </script>
 
     <script src="https://andrewalevin.github.io/mapbox-adventure/assets/js-yaml.min.js"></script>
