@@ -196,12 +196,24 @@
   img: flip-coffeshop.png
   link: https://yandex.ru/maps/-/CHEhn-IJ
   kind: coffeshop
+
+- coords: 55.747142, 37.607978
+  title: Fine
+  img: fine-coffeshop.png
+  link: https://yandex.ru/maps/-/CHElqAK3
+  kind: coffeshop 
+
+
+
+######################################
+
+# 🥗 Restaurants
   
 - coords: 55.747010, 37.627782
   title: Blau
   img: blau-restaurant.png
   link: https://yandex.ru/maps/-/CHEhr-MI
-  kind: restaurant, coffeshop 
+  kind: restaurant
   
 
 
